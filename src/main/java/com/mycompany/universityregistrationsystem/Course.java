@@ -14,6 +14,7 @@ public class Course {
     private String courseName;
     private int creditHours;
 
+    // constactor
     public Course(int courseId, String courseName, int creditHours) {
         this.courseId = courseId;
         this.courseName = courseName;

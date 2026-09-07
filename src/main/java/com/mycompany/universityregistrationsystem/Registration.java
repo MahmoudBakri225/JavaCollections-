@@ -14,6 +14,7 @@ public class Registration {
     private Course course;
     private String status;
 
+    // constactor
     public Registration(Student student, Course course, String status) {
         this.student = student;
         this.course = course;

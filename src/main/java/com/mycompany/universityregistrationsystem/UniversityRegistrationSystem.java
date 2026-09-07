@@ -169,8 +169,7 @@ public class UniversityRegistrationSystem {
 
         students.set(4, "Nader");
 
-        System.out.println("Student at index 4 after modification: "
-                + students.get(4));
+        System.out.println("Student at index 4 after modification: " + students.get(4));
 
         //LinkedList
         //A LinkedList is used to manage the student waiting list.
@@ -193,8 +192,7 @@ public class UniversityRegistrationSystem {
         //Access
         System.out.println("\n--- Access Waiting Student ---");
 
-        System.out.println("First student in waiting list: "
-                + waitingList.getFirst());
+        System.out.println("First student in waiting list: " + waitingList.getFirst());
 
         //Search
         System.out.println("\n--- Search Waiting Student ---");
@@ -210,8 +208,7 @@ public class UniversityRegistrationSystem {
 
         waitingList.set(2, "Karim");
 
-        System.out.println("Student at index 2 after modification: "
-                + waitingList.get(2));
+        System.out.println("Student at index 2 after modification: " + waitingList.get(2));
 
         //Set
         //A Set is used to store university departments.
@@ -301,8 +298,7 @@ public class UniversityRegistrationSystem {
 
         for (Integer studentId : studentMap.keySet()) {
             System.out.println(
-                    "Student ID: " + studentId
-                    + " | Name: " + studentMap.get(studentId)
+                    "Student ID: " + studentId + " | Name: " + studentMap.get(studentId)
             );
         }
 
@@ -325,27 +321,12 @@ public class UniversityRegistrationSystem {
         //Modify
         System.out.println("\n--- Modify Student ---");
 
-        System.out.println("Before modification: "
-                + studentMap.get(1004));
+        System.out.println("Before modification: " + studentMap.get(1004));
 
         studentMap.put(1004, "Nader");
 
-        System.out.println("After modification: "
-                + studentMap.get(1004));
+        System.out.println("After modification: " + studentMap.get(1004));
     }
 }
 
 
-//Project Description
-//
-//A Java-based University Registration System that demonstrates the use of different Java data structures to manage university data.
-//
-//Collections & Description
-//Array: Stores fixed university days.
-//2D Array: Stores the class schedule.
-//List: Stores available courses.
-//ArrayList: Stores registered students.
-//LinkedList: Manages the waiting list.
-//Set: Stores unique university departments.
-//HashSet: Stores unique student IDs.
-//HashMap: Maps student IDs to student names.
