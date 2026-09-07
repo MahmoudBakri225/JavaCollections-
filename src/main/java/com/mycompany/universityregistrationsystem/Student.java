@@ -6,6 +6,7 @@ public class Student {
     private String studentName;
     private String department;
 
+    
     // constactor
     public Student(int studentId, String studentName, String department) {
         this.studentId = studentId;

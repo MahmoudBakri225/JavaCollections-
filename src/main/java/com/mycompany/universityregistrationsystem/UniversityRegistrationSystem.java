@@ -1,5 +1,4 @@
 package com.mycompany.universityregistrationsystem;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -92,14 +91,12 @@ public class UniversityRegistrationSystem {
         //It is suitable because courses are maintained in an ordered collection,
         //and the list can be easily accessed, searched, and modified when needed.
         List<String> courses = new ArrayList<>();
-
         courses.add("Java Programming");
         courses.add("Software Testing");
         courses.add("Data Structures");
         courses.add("Database Systems");
         courses.add("Web Development");
         courses.add("Computer Networks");
-
         System.out.println("\n--- Available Courses ---");
 
         //Display
@@ -129,13 +126,11 @@ public class UniversityRegistrationSystem {
         //It is appropriate because the number of registered students can change over time. 
         //Students can be easily added, removed, searched for, or accessed by index while maintaining their order.
         ArrayList<String> students = new ArrayList<>();
-
         students.add("Mahmoud");
         students.add("Mohamed");
         students.add("Ahmed");
         students.add("Ali");
         students.add("Khaleed");
-
         System.out.println("\n--- Registered Students ---");
 
         //Display
@@ -169,12 +164,10 @@ public class UniversityRegistrationSystem {
         //It is suitable for this purpose because students may frequently join or leave the waiting list,
         //and the structure supports adding and removing elements efficiently while preserving their order. 
         LinkedList<String> waitingList = new LinkedList<>();
-
         waitingList.add("Fady");
         waitingList.add("Amr");
         waitingList.add("Hassan");
         waitingList.add("Hashim");
-
         System.out.println("\n--- Waiting List ---");
 
         //Display
@@ -208,13 +201,11 @@ public class UniversityRegistrationSystem {
         //A department should not appear more than once, 
         //so a Set is an appropriate choice because it automatically prevents duplicate values.
         Set<String> departments = new HashSet<>();
-
         departments.add("Computer Science");
         departments.add("Information Technology");
         departments.add("Software Engineering");
         departments.add("Information Systems");
         departments.add("Computer Science");
-
         System.out.println("\n--- University Departments ---");
 
         //Display
@@ -245,13 +236,11 @@ public class UniversityRegistrationSystem {
         //Each student ID must be unique, and HashSet automatically prevents duplicate IDs. 
         //It also provides efficient searching for an ID using methods such as contains().
         HashSet<Integer> studentIds = new HashSet<>();
-
         studentIds.add(1001);
         studentIds.add(1002);
         studentIds.add(1003);
         studentIds.add(1004);
         studentIds.add(1001);
-
         System.out.println("\n--- Student IDs ---");
 
         //Display
@@ -281,12 +270,10 @@ public class UniversityRegistrationSystem {
         //The student ID is used as the key and the student's name as the value.
         //This makes it easy to quickly access, search, and update student information using the ID.
         HashMap<Integer, String> studentMap = new HashMap<>();
-
         studentMap.put(1001, "Mahmoud");
         studentMap.put(1002, "Mohamed");
         studentMap.put(1003, "Ahmed");
         studentMap.put(1004, "Ali");
-
         System.out.println("\n--- Student Information ---");
 
         for (Integer studentId : studentMap.keySet()) {

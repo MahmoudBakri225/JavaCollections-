@@ -1,12 +1,12 @@
 package com.mycompany.universityregistrationsystem;
 
-
 public class Registration {
 
     private Student student;
     private Course course;
     private String status;
 
+    
     // constactor
     public Registration(Student student, Course course, String status) {
         this.student = student;
