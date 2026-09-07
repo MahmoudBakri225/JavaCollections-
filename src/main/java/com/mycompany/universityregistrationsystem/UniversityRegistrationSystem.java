@@ -1,6 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 package com.mycompany.universityregistrationsystem;
 
 import java.util.ArrayList;
@@ -10,10 +7,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Set;
 
-/**
- *
- * @author KA
- */
 public class UniversityRegistrationSystem {
 
     public static void main(String[] args) {
